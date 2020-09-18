@@ -28,7 +28,7 @@ def InsertionSort():
         list1[j+1] = c
     print(list1)
 
-inp = input("Enter (B) for Bubble Sort, (S) for elsection Sort and (I) for Insertion Sort \n Enter here:")
+inp = input("Enter (B) for Bubble Sort, (S) for selection Sort and (I) for Insertion Sort \n Enter here:")
 if inp=="B" or inp=="b":
 	bubbleSort()
 elif inp=="S" or inp=="s":
